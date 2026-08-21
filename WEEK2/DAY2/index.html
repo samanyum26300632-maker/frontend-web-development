@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .chat-button {
+        position: fixed;
+        bottom: 40px;
+        right: 40px;
+        width: 60px;
+        height: 60px;
+      }
+      .card {
+        width: 200px;
+        height: 200px;
+        background-color: black;
+        color: white;
+        position: sticky;
+        top: 10px;
+      }
+      .picture-1{
+        position: absolute;
+        left: 200px;
+        z-index: 3;
+      }
+            .picture-2{
+        position: absolute;
+        left:0;
+        z-index: 2;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Css position  -->
+    <!-- 
+    1. Static
+    2. fixed
+    3. sticky 
+    4. relative 
+    5. abosolute
+     -->
+    <div>
+      <h1>Intro</h1>
+      <div
+        class="chat-button"
+        style="
+          background-color: black;
+          color: white;
+          border-radius: 100%;
+
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        "
+      >
+        chat
+      </div>
