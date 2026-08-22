@@ -1,0 +1,145 @@
+navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: lightgreen;
+    border: 1px solid lightblue;
+}
+
+
+.navbar .logo {
+    font-size: large;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    color: darkgreen;
+}
+
+.navbar nav {
+    display: flex;
+    gap: 20px;
+}
+
+.navbar nav a {
+    text-decoration: none;
+    color: blue;
+}
+
+.navbar nav a:hover {
+    text-decoration: underline;
+}
+
+.navbar .action-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.parent div{
+    font-size: medium;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: lightgreen;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* styles for the parent container */
+}
+
+.btn {
+    padding: 10px 30px 10px 30px;
+    border: none;
+    background-color: lightblue;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: medium;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);  
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+
+}
+.btn:hover {
+    background-color: darkblue;
+}
+.body {
+    background-color: lightyellow;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: lightgreen;
+    border: 1px solid lightblue;
+}
+
+
+.navbar .logo {
+    font-size: large;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    color: darkgreen;
+}
+
+.navbar nav {
+    display: flex;
+    gap: 20px;
+}
+
+.navbar nav a {
+    text-decoration: none;
+    color: blue;
+}
+
+.navbar nav a:hover {
+    text-decoration: underline;
+}
+
+.navbar .action-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.parent div{
+    font-size: medium;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: lightgreen;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* styles for the parent container */
+}
+
+.btn {
+    padding: 10px 30px 10px 30px;
+    border: none;
+    background-color: lightblue;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: medium;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);  
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+
+}
+.btn:hover {
+    background-color: darkblue;
+}
+.body {
+    background-color: lightyellow;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
