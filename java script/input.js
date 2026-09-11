@@ -58,7 +58,7 @@ for(let i=0;i<que.length;i++){
     }
    
 }
-console.log(isPresent?"yes":"no")
+console.log(isPresent?"yes":"no")// Itenary operator
 
 // let arr=[1,2,3,4,5];
 // arr.push(6);
