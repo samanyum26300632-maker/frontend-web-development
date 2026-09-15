@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .image {
+        height: 200px;
+        width: 200px;
+      }
+    </style>
+  </head>
+  <body>
+    <img
+      class="image"
+      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgBrYD2X8xBOIwNDhQfpWn1MJA-gT_1A7o5fmIPSz0Hg&s=10"
+    />
+    <button id="btn">Zoom</button>
+    <button id="btn2">Unzoom</button>
+
+    <!-- click -->
+    <script>
+      let height = 200;
+      let width = 200;
+      let img = document.querySelector(".image");
+      let btn = document.querySelector("#btn");
+      btn.addEventListener("click", () => {
+        height = height + 100;
+        width = width + 100;
+        img.style.height = `${height}px`;
+        img.style.width = `${width}px`;
+      });
+      let btn2 = document.querySelector("#btn2");
+      btn2.addEventListener("click", () => {
+        height = height - 30;
+        width = width - 30
+        img.style.height = `${height}px`;
+        img.style.width = `${width}px`;
+      });
+    </script>
+
+  </body>
+</html>
