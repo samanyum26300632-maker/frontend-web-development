@@ -1,0 +1,29 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container"></div>
+    <script>
+        fetch('https://reqres.in/api/users')// fetching data from the api
+        .then((response) => response.json())// converting the response to json
+        .then((response) => showData(response.data))// calling the showData function and passing the data to it
+        .catch((arr) => console.log(arr));// catching any errors that may occur
+        let container= document.querySelector('.container');// selecting the container div
+        function showData(data){// function to show the data
+            for(let i = 0; i < data.length; i++){// looping through the data
+                let h1 = document.createElement('h1');// creating an h1 element
+         
+         
+                h1.textContent = data[i].email;// setting the text content of the h1 element to the email of the user
+                let img = document.createElement('img');// creating an img element
+                img.src = data[i].avatar;// setting the src of the img element to the avatar of the user
+                container.appendChild(h1);// appending the h1 element to the container
+                container.appendChild(img);// appending the img element to the container
+            }
+        }
+    </script>
+</body>
+</html>
