@@ -1,0 +1,22 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="title"> This is about QuerySelector</h1> 
+    <div class="box">BOX1</div>
+    <div class="box">BOX2</div>  
+</body>
+<script type="text/javascript">
+  //Query Selector helps you find the first element that matches the CSS Element
+  const title = document.querySelector("h1");// get element with id=h1
+  console.log(title);
+  const heading = document.querySelector("#title");// get first element whose id is attached with title
+  console.log(heading);
+  const byClass = document.querySelector(".box");// get first element with class being box (. is used)
+  console.log(byClass);
+</script>
+
+</html>

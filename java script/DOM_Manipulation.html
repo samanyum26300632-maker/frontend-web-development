@@ -1,0 +1,51 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul id="myList">
+        <li> Apple</li>
+        <li> Banana</li>
+        <li> Mango</li>
+    </ul>   
+</body>
+<script type="text/javascript">
+ // Parent Element
+//  const mynewlist= document.getElementById("myList");// get element with id=myList
+ 
+ // adding new element to the list
+//  let newlist =document.createElement("li");
+//  newlist.textContent="Banana";
+// const fruits_list= ["Banana","Mango","Grapes","Orange"];
+// for (let fruit of fruits_list){
+// let list1= document.createElement("li");
+// list1.textContent= fruit;
+
+
+// myList.appendChild(list1);
+// }
+// This was about adding an elemnet now lets get the whole list
+// const item= document.getElementById("myList")
+// const child= item.children;// get all the children of the list
+// console.log(child);
+
+// const banana= child.item(1);// get the second child of the list
+// console.log(banana);
+
+// for (let i=0; i<child.length; i++) {
+//     console.log(child[i].textContent);// get the text content of each child
+// }
+
+// const Item_Orange= document.createElement('li');
+// Item_Orange.textContent= "Orange";
+// item.appendChild(Item_Orange);
+// console.log(child)
+
+let parent = document.getElementById("myList");
+let child = parent.firstElementChild;
+
+parent.removeChild(child);
+</script> 
+</html>
